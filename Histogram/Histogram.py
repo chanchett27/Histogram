@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 count = list(range(0,36))
 chars = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
-file = open("Syllabus_CIS298_001MannW20.txt")
+file = open("Syllabus_CIS298_001MannW20.txt") #Uses a text version with all bullet points removed
 text = file.read()
 text = text.lower()
 
